@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background: linear-gradient(black, rgb(55, 0, 55), rgb(28, 0, 73), rgb(20, 0, 32) );
     text-align: center;
 }
 
@@ -21,8 +21,9 @@ body {
 }
 
 #logo {
-    width: 160px;
-    margin-bottom: 15px;
+    width: 200px;
+    height: auto;
+    width: 300px;
 }
 
 #game-container {
@@ -44,6 +45,6 @@ body {
     font-size: 23px;
     font-weight: bold;
     font-family: "Lucida Console", "Courier New", monospace;
-    text-align: left;
+    text-align: center;
     margin: 15 0;
 }
